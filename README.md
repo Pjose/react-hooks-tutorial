@@ -2,6 +2,10 @@
 React Hooks - are functions that let you “hook into” React state and lifecycle features from function components. 
             - Hooks don't work inside classes.
 
+> [!NOTE]
+> Hooks let you use different React features from your components.
+> You can either use the built-in Hooks or combine them to build your own.
+
 ## State Hooks
  - ### useState
    useState - let's you add a state variable to your component.
@@ -16,10 +20,11 @@ React Hooks - are functions that let you “hook into” React state and lifecyc
    ```
 
 ## Effect Hook
-useEffect - connects a component to an external system.
-```
-useEffect(setup, dependencies?)
-```
+ - ### useEffect
+   useEffect - connects a component to an external system.
+  ```
+  useEffect(setup, dependencies?)
+  ```
 
 ## Performance Hooks
  - ### useMemo
