@@ -3,33 +3,33 @@ React Hooks - are functions that let you “hook into” React state and lifecyc
             - Hooks don't work inside classes.
 
 ## State Hooks
- ### useState
- useState - let's you add a state variable to your component.
- '''
- const [state, setState] = useState(initialState)
- '''
+ - ### useState
+   useState - let's you add a state variable to your component.
+   ```
+   const [state, setState] = useState(initialState)
+   ```
 
- ### useReducer
- useReducer - let's you add a reducer to your component.
- '''
- const [state, dispatch] = useReducer(reducer, initialArg, init?)
- '''
+ - ### useReducer
+   useReducer - let's you add a reducer to your component.
+   ```
+   const [state, dispatch] = useReducer(reducer, initialArg, init?)
+   ```
 
 ## Effect Hook
 useEffect - connects a component to an external system.
-'''
+```
 useEffect(setup, dependencies?)
-'''
+```
 
 ## Performance Hooks
  - ### useMemo
    useMemo - lets you cache the result of an expensive calculation.
-   '''
+   ```
    const cachedValue = useMemo(calculateValue, dependencies)
-   '''
+   ```
    
  - ### useCallback
    useCallback - lets you cache a function definition before passing it down to an optimized component.
-   '''
+   ```
    const cachedFn = useCallback(fn, dependencies)
-   '''
+   ```
