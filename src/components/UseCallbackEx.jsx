@@ -20,12 +20,12 @@ const UseCallbackEx = () => {
     const [users, setUsers] = useState(allUsers)
 
     const handleSearch = useCallback((text) => {
-        console.log(users[0])
+        console.log(users[0]) // For testing dependency since we have a 'memo' on Search
         const filteredUsers = allUsers.filter((user) => 
             user.includes(text),
         )
         setUsers(filteredUsers)
-    }, []) // <--- empty dependency array
+    }, [users]) // <--- dependency array
 
   return (
     <div className='card'>
