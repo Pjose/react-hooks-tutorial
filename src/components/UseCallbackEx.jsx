@@ -28,7 +28,8 @@ const UseCallbackEx = () => {
     }, [users]) // <--- dependency array
 
   return (
-    <div className='card'>
+      <div className='card'>
+        <h2>useCallback Explained!</h2>
         <div>
             <button onClick={() => setUsers(shuffle(allUsers))}>
                 Shuffle

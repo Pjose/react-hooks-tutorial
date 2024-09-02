@@ -27,7 +27,7 @@ const UseMemoEx = () => {
 
   return (
     <div className='card'>
-        <h1>useMemo Explained!</h1>
+        <h2>useMemo Explained!</h2>
           <h3>Count: {count}</h3>
           <h3>Selected Item: {selectedItem?.id}</h3>
           <button onClick={() => setCount(count + 1)}>Increment</button>

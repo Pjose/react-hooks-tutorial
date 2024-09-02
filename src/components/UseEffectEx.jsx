@@ -15,7 +15,7 @@ const UseEffectEx = () => {
 
   return (
     <div className="card">
-        <h1>useEffect Explained!</h1>
+        <h2>useEffect Explained!</h2>
         <h3>Counter: {counter}</h3>
         <button onClick={() => setCounter(counter - 1)}>Decrement</button>
         <button onClick={() => setCounter(counter + 1)}>Increment</button>
