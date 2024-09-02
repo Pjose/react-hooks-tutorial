@@ -1,6 +1,7 @@
 import UseStateEx from "./components/UseStateEx"
 import UseEffectEx from "./components/UseEffectEx"
 import UseMemoEx from "./components/UseMemoEx"
+import UseCallbackEx from "./components/UseCallbackEx"
 
 const App = () => {
   
@@ -9,6 +10,7 @@ const App = () => {
       <UseStateEx />
       <UseEffectEx />
       <UseMemoEx />
+      <UseCallbackEx />
     </>
   )
 }
