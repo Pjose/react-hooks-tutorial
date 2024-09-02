@@ -48,3 +48,12 @@ li {
 li:last-child {
   border-bottom: none;
 }
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.text-red-600 {
+  color: #ff0000;
+  font-weight: 600;
+}
